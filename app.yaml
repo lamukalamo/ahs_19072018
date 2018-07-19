@@ -1,0 +1,11 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /1/
+  script: ahs1.php
+- url: /2/
+  script: ahs2.php
+- url: /3/
+  script: ahs3.php
